@@ -17,7 +17,7 @@ class App extends Component {
 		search: "",
 		query: "&q=",
 
-		error: ''
+		error: ""
 	};
 	getRecipes = async () => {
 		try {
@@ -37,9 +37,9 @@ class App extends Component {
 			console.log("error:", error);
 		}
 	};
-	// componentDidMount() {
-	// 	this.getRecipes();
-	// }
+	componentDidMount() {
+		this.getRecipes();
+	}
 	displayPage = index => {
 		switch (index) {
 			case "list":
