@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+$mainBlack: #222;
+$mainGreen: #82b340;
+$mainWhite: #fff;
+$mainGrey: #ececec;
+$mainLeaf: #00897b;
+
+body {
+	background: $mainWhite;
+	color: $mainBlack;
+	font-family: "Roboto", sans-serif !important;
+}
+.text-slanted {
+	font-family: "Courgette", cursive !important;
+}
